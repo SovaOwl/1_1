@@ -31,7 +31,7 @@ int main()
     
     
     out << size2 << endl;
-    for (int i = size2 - 1; i >= size2; i--)
+    for (int i = size2 - 1; i < size2; i++)
     {
         out << var2[i] << " ";
     }
